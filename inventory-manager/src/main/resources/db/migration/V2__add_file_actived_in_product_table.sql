@@ -1,0 +1,2 @@
+ALTER TABLE products
+ADD active BOOLEAN DEFAULT TRUE;
