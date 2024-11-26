@@ -1,4 +1,4 @@
-# Teste de Análise Técnica - Desafio Back-End, Front-End e Infraestrutura
+# Desafio Back-End, Front-End e Infraestrutura
 
 ## Descrição do Projeto
 
