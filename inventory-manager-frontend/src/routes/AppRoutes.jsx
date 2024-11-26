@@ -4,6 +4,7 @@ import ProductsPage from "../pages/Producs";
 import Home from "../pages/Home/Index";
 import RegisterPage from "../pages/Register";
 import PrivateRoute from "./PrivateRoute";
+import AuditLogsPage from "../pages/AuditLogs";
 
 
 const AppRoutes = () => {
@@ -14,6 +15,8 @@ const AppRoutes = () => {
 
       <Route path="/products" element={<PrivateRoute element={<ProductsPage />} />} />
       <Route path="/" element={<PrivateRoute element={<Home />} />} />
+      <Route path="/logs" element={<PrivateRoute element={<AuditLogsPage />} />} />
+
     </Routes>
   );
 };

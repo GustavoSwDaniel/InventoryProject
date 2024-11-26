@@ -43,6 +43,20 @@ const Sidebar = () => {
                   </span>
                 </a>
               </li>
+              <li>
+                <a
+                  href="/logs"
+                  className="relative flex flex-row items-center h-11 focus:outline-none hover:bg-purple-400 text-gray-600 hover:text-gray-800 border-l-4 border-transparent"
+                >
+                  {/* Icono Home de Font Awesome */}
+                  <span className="inline-flex justify-center items-center ml-4">
+                    <i className="fa-solid fa-bag-shopping"></i>
+                  </span>
+                  <span className="ml-2 text-sm tracking-wide truncate">
+                    Logs
+                  </span>
+                </a>
+              </li>
             <li>
               <a
                 href="#"
